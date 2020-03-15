@@ -39,7 +39,7 @@ I prefer modern ECC/Ed25519 over classic RSA key
 |Subkey|**S** _ign_ |Smartcard|Online|
 |Subkey|**E** _ncrypt_ |Smartcard|Online|
 
-The Ceritfy key would be stored offline, subkeys on a smartcard (security token)
+The Certify key would be stored offline, subkeys on a smartcard (security token)
 
 Generate main **Certify** key
 ```
