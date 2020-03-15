@@ -41,7 +41,7 @@ I prefer modern ECC/Ed25519 over classic RSA key
 
 The Ceritfy key would be stored offline, subkeys on a smartcard (security token)
 
-Generate main **Cerify** key
+Generate main **Certify** key
 ```
 > gpg --expert --full-gen-key
 
