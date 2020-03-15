@@ -98,7 +98,7 @@ Add **Encryption** subkey
    (2y) key expires in 2 years
 ```
 
-Cross cerify signing subkey and save
+Cross certify signing subkey and save
 ```
   cross-certify
   save
