@@ -32,7 +32,7 @@ I prefer modern ECC/Ed25519 over classic RSA key
 
 ### Create a main key with subkeys (C-A-S-E)
 
-|Key|Usage|Storage|Availabilty|
+|Key|Usage|Storage|Availability|
 |---|---|---|---|
 |Main|**C**_ertify_|Secure backup|Offline |
 |Subkey|**A**_uthenticate_|Smartcard|Online|
@@ -143,7 +143,7 @@ Armor export individual main secret subkeys [backup mode]
 
 ### Create primary certification key (C)
 
-|Key|Key Usage|Storage|Availabilty|
+|Key|Key Usage|Storage|Availability|
 |---|---------|-------|-----------|
 |Primary|**C**_ertify_|Keyring|Online|
 
