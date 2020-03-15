@@ -1,6 +1,6 @@
 # Create a _perfect_ GnuPG Keys
 
-Version 0.5 ([windows](https://github.com/bmone/gnupg-perfect-keys/tree/windows)) | Friday 3 January 2020
+Version 0.5 ([windows](https://github.com/bmone/gnupg-perfect-keys/blob/master/readme.md)) | Friday 3 January 2020
 
 ### Prepare the smartcard (security token)
 
