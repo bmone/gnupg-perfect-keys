@@ -34,10 +34,10 @@ I prefer modern ECC/Ed25519 over classic RSA key
 
 |Key|Usage|Storage|Availabilty|
 |---|---|---|---|
-|Main|**C** _ertify_ |Secure backup|Offline |
-|Subkey|**A** _uthenticate_|Smartcard|Online|
-|Subkey|**S** _ign_ |Smartcard|Online|
-|Subkey|**E** _ncrypt_ |Smartcard|Online|
+|Main|**C**_ertify_|Secure backup|Offline |
+|Subkey|**A**_uthenticate_|Smartcard|Online|
+|Subkey|**S**_ign_|Smartcard|Online|
+|Subkey|**E**_ncrypt_|Smartcard|Online|
 
 The Certify key would be stored offline, subkeys on a smartcard (security token)
 
@@ -46,9 +46,9 @@ Generate main **Certify** key
 > gpg --expert --full-gen-key
 
    (11) ECC (set your own capabilities)
-   (S) Toggle the sign capability [Leave Certify only]
-   (Q) Finished
-   (1) Curve 25519
+   (S)  Toggle the sign capability [Leave Certify only]
+   (Q)  Finished
+   (1)  Curve 25519
    (4y) key expires in 4 years 
    Real name: <real name>
    Email address: <email address>
@@ -75,10 +75,10 @@ Add **Authentication** subkey
 ```
   addkey
    (11) ECC (set your own capabilities)
-   (A) Toggle the authenticate capability [Add Authenticate]
-   (S) Toggle the sign capability [Remove Sign]
-   (Q) Finished
-   (1) Curve 25519
+   (A)  Toggle the authenticate capability [Add Authenticate]
+   (S)  Toggle the sign capability [Remove Sign]
+   (Q)  Finished
+   (1)  Curve 25519
    (2y) key expires in 2 years
 ```
 
@@ -86,7 +86,7 @@ Add **Sign** subkey
 ```
   addkey
    (10) ECC (sign only)
-   (1) Curve 25519
+   (1)  Curve 25519
    (2y) key expires in 2 years
 ```
 
@@ -94,7 +94,7 @@ Add **Encryption** subkey
 ```
   addkey
    (12) ECC (encrypt only)
-   (1) Curve 25519
+   (1)  Curve 25519
    (2y) key expires in 2 years
 ```
 
@@ -145,7 +145,7 @@ Armor export individual main secret subkeys [backup mode]
 
 |Key|Key Usage|Storage|Availabilty|
 |---|---------|-------|-----------|
-|Primary|**C** _ertify_|Keyring|Online|
+|Primary|**C**_ertify_|Keyring|Online|
 
 This Certify key would remain in key ring and would be designated by offline main certify key as a trusted introducer (crossed-certified)
 
@@ -154,9 +154,9 @@ Generate **Certify** key
 > gpg --expert --full-gen-key
    
    (11) ECC (set your own capabilities)
-   (S) Toggle the sign capability [Leave Certify only]
-   (Q) Finished
-   (1) Curve 25519
+   (S)  Toggle the sign capability [Leave Certify only]
+   (Q)  Finished
+   (1)  Curve 25519
    (2y) key expires in 2 years 
    Real name: <real name> (certification key)
    Email address: <empty>
